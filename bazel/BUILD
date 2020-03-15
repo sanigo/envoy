@@ -212,7 +212,7 @@ config_setting(
     name = "boringssl_fips",
     constraint_values = [
         "@bazel_tools//platforms:linux",
-        "@bazel_tools//platforms:x86_64",
+        "@bazel_tools//platforms:aarch64",
     ],
     values = {"define": "boringssl=fips"},
 )
